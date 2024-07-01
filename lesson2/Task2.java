@@ -1,5 +1,4 @@
 package lesson2;
-import java.util.Scanner;
 
 public class Task2 {
     public static void main(String[] args) {
@@ -18,10 +17,10 @@ public class Task2 {
         int needmorefruit = fruits * newday;
         System.out.println(needmorefruit);
         // Тут написано перше завдання множення, діл додавання і віднімання
-        int chokolate = 10;
+        int choсolate = 10;
         int bananas = 20;
         int apple = 20;
-        if (bananas > chokolate) {
+        if (bananas > choсolate) {
             System.out.println("We have a lot of banana");
         }
         if (apple == bananas) {
@@ -51,6 +50,11 @@ public class Task2 {
     // int age = sc.nextInt();
     // тут здерто сканер рядка і сканер числа
     // і зрозумів що не знаю як вивести т що считав з клавіатури в тремінал
+
+
+    // виводимо на екран значення - результат обчислення виразу
+    // (i1 + i2 + i3) / 3
+    //System.out.println((i1 + i2 + i3) / 3);
 
     // тут завдання 7
     //public double calculateDistanceBetweenPoints(
