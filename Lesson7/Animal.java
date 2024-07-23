@@ -73,24 +73,4 @@ class Horse extends Animal {
     public void sleep() {
         System.out.println(name + " спит стоячи коли хоче ");
     }
-    public static void main(String[] args) {
-        Animal lion = new Lion("Leo");
-        Animal mouse = new Mouse("Mickey");
-        Animal horse = new Horse("Spirit");
-
-        lion.speak();
-        lion.eat();
-        lion.run();
-        lion.sleep();
-
-        mouse.speak();
-        mouse.eat();
-        mouse.run();
-        mouse.sleep();
-
-        horse.speak();
-        horse.eat();
-        horse.run();
-        horse.sleep();
-    }
 }
