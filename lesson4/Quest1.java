@@ -1,6 +1,6 @@
 package lesson4;
 
-public class Example2 {
+public class Quest1 {
     public static void main(String[] args) {
         String s = "  123  ";
         int i = Integer.parseInt(s.trim());
